@@ -2,11 +2,11 @@ from tkinter import *
 
 window =Tk()
 
-#def mpg_calculate():
-    #miles = miles_text.get()
-    #gallons = gallons_text.get()
-    #mpg = miles / gallons
-    #b3.insert(mpg)
+def mpg_calculate(miles, gallons):
+    miles = miles_text.get()
+    gallons = gallons_text.get()
+    mpg = miles / gallons
+    b3.insert(mpg)
 
 
 
